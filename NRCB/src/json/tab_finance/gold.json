@@ -1,0 +1,31 @@
+{
+    "$schema": "gold_schema.json",
+    "data": {
+        "title_name":"实物贵金属",
+        "more":"更多",
+        "imgurl":"imgs/in_ico_arrow.png",
+        "url": "main.financeDeposit",
+        "List": [{
+            "type": "熊猫金币",
+            "url": "",
+            "src": "imgs/tab_finance/gold/xmjp.png",
+            "price":"￥124.00"
+        },{
+            "type": "熊猫金币",
+            "url": "",
+            "src": "imgs/tab_finance/gold/xmjp.png",
+            "price":"￥124.00"
+        },{
+            "type": "熊猫金币",
+            "url": "",
+            "src": "imgs/tab_finance/gold/xmjp.png",
+            "price":"￥124.00"
+        },{
+            "type": "熊猫金币",
+            "url": "",
+            "src": "imgs/tab_finance/gold/xmjp.png",
+            "price":"￥124.00"
+        }],
+        "amount":2
+    }
+}

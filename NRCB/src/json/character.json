@@ -1,0 +1,23 @@
+{
+    "$schema": "character_schema.json",
+    "data": {
+        "role": [{
+                "min_age": "10",
+                "max_age": "50",
+                "sex": "man",
+                "type": "A"
+            }, {
+                "min_age": "10",
+                "max_age": "50",
+                "sex": "man", 
+                "type": "B"
+            },
+            {
+                "min_age": "51",
+                "max_age": "100",
+                "sex": "man",
+                "type": "C"
+            }
+        ]
+    }
+}

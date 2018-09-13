@@ -1,0 +1,46 @@
+{
+    "leftElement": {
+        "exist": true,
+        "back": {
+          "exist": false,
+          "src": "./imgs/register/tit_ic_ret.png",
+          "url": ""
+        },
+        "head": {
+          "exist": false,
+          "src": "./imgs/head.png",
+          "url": ""
+        },
+        "qrcode": {
+          "exist": false,
+          "src": "./imgs/qrcode.png",
+          "url": ""
+        }
+      },
+      "centerElement": {
+        "exist": true,
+        "title": {
+          "exist": true,
+          "text": "身份验证结果"
+        },
+        "logo": {
+          "exist": false,
+          "src": "./imgs/logo.png",
+          "url": ""
+        }
+      },
+      "rightElement": {
+        "exist": true,
+        "login": {
+          "exist": true,
+          "src": "./imgs/register/tit_ic_home.png",
+          "url": "main.launcher"
+        },
+        "titl": {
+          "exist": false,
+          "text": "安全退出"
+        }
+      },
+      "bgcolor": "#efeff4",
+      "fontcolor": "#ffffff"
+}

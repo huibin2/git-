@@ -1,0 +1,29 @@
+{
+    "$schema": "regular_finance_schema.json",
+    "data": {
+        "title_name": "定期投资",
+        "more":"更多",
+        "imgurl":"imgs/in_ico_arrow.png",
+        "url": "main.financeDeposit",
+        "financeList": [
+            {
+                "finance_type": "短期理财32天",
+                "url":"",
+                "rate": 4.18,
+                "rate_name": "预期年化收益率"
+            },
+            {
+                "finance_type": "中长期理财94天",
+                "url":"",
+                "rate": 4.89,
+                "rate_name": "预期年化收益率"
+            },
+            {
+                "finance_type": "大额存单",
+                "url":"",
+                "rate": 4.56,
+                "rate_name": "三年期l"
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "$schema": "homepage_schema.json",
+    "data": [{
+        "total": "财富总览",
+        "node": "./imgs/tab_user/homepage/eye@3x.png",
+        "mode": "./imgs/tab_user/homepage/showe@3x.png",
+        "src": "./imgs/tab_user/homepage/menu@3x.png",
+        "left": "总资产（元）",
+        "logo": "./imgs/tab_user/homepage/downer@3x.png",
+        "right": "总负债（元）",
+        "lef": "12,000,659,00",
+        "righ": "120,659,00"
+    }]
+}

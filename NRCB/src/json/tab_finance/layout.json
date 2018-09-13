@@ -1,0 +1,33 @@
+{
+    "$schema": "layout_schema.json",
+    "data": [ {
+        "type": "AD",
+        "url": "json/tab_finance/ad.json",
+        "name": "广告"
+    },{
+        "type": "MENU",
+        "url": "json/tab_finance/menu.json",
+        "name": "菜单"
+    },{
+        "type": "CURRENT",
+        "url": "json/tab_finance/current.json",
+        "name": "活期投资"
+    },{
+        "type": "REGULAR",
+        "url": "json/tab_finance/regular.json",
+        "name": "定期投资"
+    },  
+    { 
+        "type": "OPTIMIZATION",
+        "url": "json/tab_finance/optimization.json",
+        "name": "优选基金"
+    },{
+        "type": "HOT",
+        "url": "json/tab_finance/hot.json",
+        "name": "热销理财"
+    },{
+        "type": "GOLD",
+        "url": "json/tab_finance/gold.json",
+        "name": "贵金属"
+    }]
+}

@@ -1,0 +1,34 @@
+{
+    "$schema": "img_menu_schema.json",
+    "data": {
+        "menuList": [{
+                "url": "main.safeSet",
+                "src": "imgs/tab_home/menu/ic_account_wdzh_white.png",
+                "name": "我的账户"
+            },
+            {
+                "url": "main.gestureLoginSet",
+                "src": "imgs/tab_home/menu/ic_transfer_zz_white.png",
+                "name": "转账汇款"
+            },
+            {
+                "url": "main.login",
+                "src": "imgs/tab_home/menu/ic_financial_lc_white.png",
+                "name": "理财产品"
+            },
+            {
+                "url": "main.registerOpenCard",
+                "src": "imgs/tab_home/menu/ic_account_jymx_white.png",
+                "name": "交易明细"
+             }
+        ],
+        "bgImg":"imgs/tab_home/menu/index_tit_bg1.png",
+        "columns": 4,
+        "imgSize": {
+            "imgWidth": 66,
+            "imgHeight": 60
+        },
+        "fontSize": 28,
+        "fontColor": "rgb(255,255,255)"
+    }
+}

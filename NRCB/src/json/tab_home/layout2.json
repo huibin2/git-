@@ -1,0 +1,32 @@
+{
+    "$schema": "layout_schema.json",
+    "data": [{
+        "type": "AD",
+        "url": "json/tab_home/ad.json",
+        "name": "广告"
+    }, {
+        "type": "MENU",
+        "url": "json/tab_home/menu.json",
+        "name": "菜单"
+    }, {
+        "type": "NOTICE",
+        "url": "json/tab_home/notice.json",
+        "name": "公告"
+    }, {
+        "type": "INTELL",
+        "url": "json/tab_home/intell.json",
+        "name": "智能推荐"
+    }, {
+        "type": "GOLD",
+        "url": "json/tab_home/gold.json",
+        "name": "金推荐"
+    }, {
+        "type": "HOTFINANCE",
+        "url": "json/tab_home/hotfinance.json",
+        "name": "热销理财"
+    }, {
+        "type": "HOTRECOMMEND",
+        "url": "json/tab_home/hotrecommend.json",
+        "name": "热门推荐"
+    }]
+}

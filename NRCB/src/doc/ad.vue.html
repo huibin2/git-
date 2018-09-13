@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ad.vue - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Modules</li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E4%25B8%25BB%25E8%258F%259C%25E5%258D%2595%25E7%25BB%2584%25E4%25BB%25B6.html">主菜单组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25A4%25B4%25E9%2583%25A8%25E8%258F%259C%25E5%258D%2595%25E7%25BB%2584%25E4%25BB%25B6.html">头部菜单组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25BA%2595%25E9%2583%25A8%25E7%25BB%2584%25E4%25BB%25B6.html">底部组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E6%258E%25A8%25E8%258D%2590%25E7%25BB%2584%25E4%25BB%25B61.html">推荐组件1</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E6%258E%25A8%25E8%258D%2590%25E7%25BB%2584%25E4%25BB%25B62.html">推荐组件2</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E6%2599%25BA%25E8%2583%25BD%25E6%2590%259C%25E7%25B4%25A2%25E7%25BB%2584%25E4%25BB%25B6.html">智能搜索组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E7%2583%25AD%25E9%2597%25A8%25E6%258E%25A8%25E8%258D%2590%25E7%25BB%2584%25E4%25BB%25B6.html">热门推荐组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E7%2590%2586%25E8%25B4%25A2%25E7%25BB%2584%25E4%25BB%25B6.html">理财组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25B7%2591%25E9%25A9%25AC%25E7%2581%25AF%25E7%25BB%2584%25E4%25BB%25B6.html">跑马灯组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html">轮播组件</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">ad.vue</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>&lt;template>
+  &lt;div class="container">
+    &lt;slider class="slider" interval="5000" auto-play="true">
+      &lt;div class="frame" v-for="(ad,index) in ad_list" :key="index">
+        &lt;image class="image" resize="cover" @click="goto(ad.url)" :src="ad.src" />
+      &lt;/div>
+    &lt;/slider>
+  &lt;/div>
+&lt;/template>
+
+&lt;style scoped>
+.container {
+  width: 750px;
+  height: 322px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.slider {
+  width: 750px;
+  height: 322px;
+}
+.frame {
+  width: 750px;
+  height: 322px;
+}
+.image {
+  width: 750px;
+  height: 322px;
+}
+&lt;/style>
+&lt;script>
+/**
+ * @module 轮播组件
+ * @description 轮播图片weex组件
+ * @example  &lt;ad jsonurl="ad.json">&lt;/ad>
+ * ad.json数据格式如下:
+ * {
+    "$schema": "ad_schema.json",
+    "data": [{
+            "name": "",
+            "src": "imgs/tab_home/ad/banner@3x.png",
+            "url": "http://www.csii.com.cn"
+        },
+        {
+            "name": "",
+            "src": "imgs/tab_home/ad/banner@3x.png",
+            "url": "http://www.csii.com.cn"
+        }
+    ]
+}
+ * 
+ */
+const stream = weex.requireModule("stream");
+const context = weex.requireModule("context");
+const modal = weex.requireModule("modal");
+export default {
+  name:"ad",
+  /**
+   * Props 接受父组件的传值
+   * @prop {Json} jsonurl 轮播图的json文件路径
+   * 
+   */
+  props: ["jsonurl"],
+  data() {
+    return {
+      ad_list: []
+    };
+  },
+  mounted() {
+    this.getAd();
+  },
+  methods: {
+    // /**
+    //  * @function goto
+    //  * @param {String} url 跳转的场景名
+    //  */
+    goto(url) {
+      context.launchStage(url);
+    },
+    getAd() {
+      debugger;
+      stream.fetch(
+        {
+          method: "GET",
+          url: this.$store.state.jsonBaseUrl + this.jsonurl,
+          type: "json"
+        },
+        res => {
+          debugger;
+          this.ad_list = res.data.data;
+        }
+      );
+    }
+  }
+};
+&lt;/script></code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Thu Aug 09 2018 14:57:07 GMT+0800 (中国标准时间) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

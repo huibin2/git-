@@ -1,0 +1,11 @@
+{
+  "$schema": "finance_schema.json",
+  "data": [{
+     "src": "./imgs/tab_user/homepage/tx.png",
+      "column": "，下午好",
+      "puton":"欢迎使用南海农商银行",
+      "pic":"",
+      "clone":"上次登陆时间"
+    }
+  ]
+}

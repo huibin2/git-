@@ -1,0 +1,126 @@
+{"list":[
+  {
+    
+    "url":"main.newmain",
+    "name": "账户管理",
+    "path":[
+      "首页",
+      "账户管理"
+    ],
+    "key":"账户管理,zhanghuguanli",
+    "selected": true
+  },
+  {
+    
+    "url":"main.plnv",
+    "name": "理财超市",
+    "path":[
+      "理财",
+      "理财超市"
+    ],
+    "key":"理财,licaichaoshi",
+    "selected": true
+  },
+  {
+    
+    "url":"main.calender",
+    "name": "金融日历",
+    "path":[
+      "首页",
+      "金融日历"
+    ],
+    "key":"金融日历,jinrongrili",
+    "selected": true
+  },
+  {
+    
+    "url":"main.shareBuy",
+    "name": "约享存",
+    "path":[
+      "首页",
+      "约享存"
+    ],
+    "key":"约享存,yuexiangcun",
+    "selected": true
+  },
+  
+  {
+    
+    "url":"main.transferaccouts",
+    "name": "转账",
+    "path":[
+      "首页",
+      "转账汇款"
+    ],
+    "key":"转账汇款,zhuanzhanghuikuan",
+    "selected": true
+  },
+  {
+    
+    "url":"",
+    "name": "风险评估",
+    "path":[
+      "理财",
+      "风险评估"
+    ],
+    "key":"风险评估,fengxianpinggu",
+    "selected": true
+  },
+  {
+    
+    "url":"",
+    "name": "明细查询",
+    "path":[
+      "理财",
+      "明细查询"
+    ],
+    "key":"明细查询,mingxichaxun",
+    "selected": true
+  },
+  {
+    
+    "url":"",
+    "name": "历史收益",
+    "path":[
+      "理财",
+      "历史收益"
+    ],
+    "key":"历史收益,lishishouyi",
+    "selected": true
+  },
+  {
+    
+    "url":"",
+    "name": "缴费",
+    "path":[
+      "生活",
+      "缴费"
+    ],
+    "key":"水费,shuifei",
+    "selected": true
+  },
+  {
+    
+    "url":"main.login",
+    "name": "登录",
+    "path":[
+      "我的",
+      "登录"
+    ],
+    "key":"登录,denglu",
+    "selected": true
+  },
+  {
+    
+    "url":"main.register",
+    "name": "注册",
+    "path":[
+      "我的",
+      "登录",
+      "注册"
+    ],
+    "key":"注册,zhuce",
+    "selected": true
+  }
+]
+}

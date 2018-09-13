@@ -1,0 +1,27 @@
+{
+    "$schema": "optimization_schema.json",
+    "data": {
+        "title_name":"优选基金",
+        "more":"更多",
+        "imgurl":"imgs/in_ico_arrow.png",
+        "url": "main.financeDeposit",
+        "recomList": [{
+                "introduce":"近一年收益",
+                "url":"",
+                "remain":"",
+                "detail":"中欧价值发现B",
+                "rate": 20.87,
+                "point1": "明星基金",
+                "point2": "泸港深"
+            },{
+                "introduce":"近一年收益",
+                "url":"",
+                "remain":"",
+                "detail":"汇活宝价值精选",
+                "rate": 16.54,
+                "point1": "混合型",
+                "point2": "积极价值"
+            }   
+        ]
+    }
+}

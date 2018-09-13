@@ -1,0 +1,51 @@
+{
+  "name": "madp2.0",
+  "version": "1.0.0",
+  "description": "madp2.0 App",
+  "main": "index.js",
+  "keywords": [
+    "weex",
+    "vue",
+    "android",
+    "ios"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "serve": "webpack-dev-server"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "author": "csii_mobile_pro_dev_center",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0",
+    "weex-marquee": "^1.1.2",
+    "weex-ui": "^0.6.0",
+    "weex-vue-render": "^1.0.19",
+    "minami": "^1.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-component": "^1.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "postcss-plugin-px2rem": "^0.7.0",
+    "postcss-plugin-weex": "^0.1.6",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "weex-loader": "^0.7.2",
+    "weex-vue-precompiler": "^0.1.17",
+    "jsdoc": "^3.5.5"
+  }
+}

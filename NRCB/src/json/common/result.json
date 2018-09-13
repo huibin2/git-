@@ -1,0 +1,15 @@
+{
+    "$schema": "result_schema.json",
+    "data": {
+        "imgsrc":"./imgs/register/success.png",
+        "text":"银行POS限额修改成功",
+        "url":"/SafeSet",
+        "next":"确定"
+    },
+    "downtext":{
+        "isExist":"N",
+        "second":"",
+        "s":""
+
+    }
+}

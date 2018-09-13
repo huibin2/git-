@@ -1,0 +1,31 @@
+{
+    "$schema": "current_schema.json",
+    "data": {
+        "title_name":"活期投资",
+        "more":"更多",
+        "imgurl":"imgs/in_ico_arrow.png",
+        "url": "main.financeDeposit",
+        "recomList": [{
+                "introduce":"七日年化收益率",
+                "url":"",
+                "remain":"",
+                "detail":"金豆豆",
+                "rate": 5.20,
+                "point1": "明细产品",
+                "point2": "支持快赎",
+                "point3": "低风险"
+
+            },
+            {
+                "introduce":"七日年化收益率",
+                "url":"",
+                "remain":"剩余 > 100万",
+                "detail":"天天盈1号",
+                "rate": "2.67~4.79",
+                "point1": "纯信用",
+                "point2": "无抵押",
+                "point3": "免担保"
+            }
+        ]
+    }
+}

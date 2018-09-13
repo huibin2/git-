@@ -1,0 +1,8 @@
+{
+    "$schema": "homepage_schema.json",
+    "data": [{
+        "mode": "./imgs/tab_user/homepage/downlogo@3x.png",
+        "nume": "2.1.0",
+        "bottom": "绍兴银行股份有限公司版权所有"
+    }]
+}

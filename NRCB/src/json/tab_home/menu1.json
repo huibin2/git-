@@ -1,0 +1,54 @@
+{
+    "$schema": "img_menu_schema.json",
+    "data": {
+        "menuList": [{
+                "url": "main.newmain",
+                "src": "imgs/tab_home/menu1/ic_financial_jj.png",
+                "name": "基金"
+            },
+            {
+                "url": "main.transferaccouts",
+                "src": "imgs/tab_home/menu1/ic_laon_xfy.png",
+                "name": "消费易"
+            },
+            {
+                "url": "main.plnv",
+                "src": "imgs/tab_home/menu1/ic_life_zsxf.png",
+                "name": "掌上学费"
+            },
+            {
+                "url": "main.deposit",
+                "src": "imgs/tab_home/menu1/ic_financial_bx.png",
+                "name": "保险"
+            },
+            {
+                "url": "",
+                "src": "imgs/tab_home/menu1/ic_financial_gjs.png",
+                "name": "贵金属"
+            },
+            {
+                "url": "main.loan",
+                "src": "imgs/tab_home/menu1/ic_financial_jdd.png",
+                "name": "金豆豆"
+            },
+            {
+                "url": "main.businesscard",
+                "src": "imgs/tab_home/menu1/ic_tool_yyqk.png",
+                "name": "预约服务"
+            },
+            {
+                "url": "main.allmenu",
+                "src": "imgs/tab_home/menu1/ic_more.png",
+                "name": "更多"
+            }
+        ],
+        "bgImg":"imgs/tab_home/menu1/banner@3x.png",
+        "columns": 4,
+        "imgSize": {
+            "imgWidth": 66,
+            "imgHeight": 60
+        },
+        "fontSize": 28,
+        "fontColor": "rgb(51,51,51)"
+    }
+}
