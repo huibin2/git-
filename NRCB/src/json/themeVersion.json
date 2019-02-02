@@ -1,7 +1,0 @@
-{
-    "$schema": "theme_version_schema.json",
-    "data": {
-        "theme1": "layout1.json",
-        "theme2": "layout2.json"
-    }
-}
